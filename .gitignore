@@ -1,12 +1,18 @@
-Thumbs.db
-.DS_Store
-.dist
-.tmp
-.sass-cache
-npm-debug.log
-node_modules
-builds
-package-lock.json
+
+### Hugo
+# Generated files by hugo
+.hugo_build.lock
 public
-wiki
 resources
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Vercel CLI
+.vercel
+
+# jsconfig.json used to assist navigation
+# https://gohugo.io/hugo-pipes/js/
+assets/jsconfig.json
